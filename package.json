@@ -2,9 +2,13 @@
   "name": "sample-http",
   "version": "0.0.1",
   "dependencies": {
+    "@google-cloud/functions-framework": "^1.3.2",
     "axios": "^0.19.0",
     "axios-oauth-client": "^1.2.0",
     "axios-token-interceptor": "^0.1.0",
     "simple-oauth2": "^2.5.1"
+  },
+  "scripts": {
+    "start": "functions-framework --target=createInvoice"
   }
 }
